@@ -3,35 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">    
     <title>DogRacing.pro - Екатеринбург</title>
 </head>
 <body>
     <header>
-        <div class=""><img class="logo"src="./img/logo.svg" alt="Логотип"></div>
+        <div class=""><img class="logo" src="./img/logo.svg" alt="Логотип"></div>
+        <div><button type="button" class="toggle">X</button></div>
         <nav>
             <ul class="nav">
                 <li class="nav__item"><a href="./index.html">Главная</a></li>
-                <li class="nav__item"><a href="">Новости</a></li>
-                <li class="nav__item"><a href="">Видео/Фото</a></li>
-                <li class="nav__item"><a href="">Правила</a></li>
-                <li class="nav__item"><a href="">Контакты</a></li>
-                <li class="nav__item"><a href="">Записаться на тренировку</a></li>
+                <li class="nav__item"><a href="#">Новости</a></li>
+                <li class="nav__item"><a href="#">Видео/Фото</a></li>
+                <li class="nav__item"><a href="#">Правила</a></li>
+                <li class="nav__item"><a href="#">Контакты</a></li>
+                <li class="nav__item"><a href="#">Записаться на тренировку</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="news">
-            <h2>
+            <h2 class=" news__title">
                 Новости клуба
             </h2>
-            <ul>
-                <li></li>
+            <ul class="news-block">
+                <li class="news-block__item">
+                    <div class="news-item__image"></div>
+                    <h3 class="news-item__title">Заголовок новости</h3>
+                    <p class="news-item__description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam est perspiciatis sapiente distinctio maiores culpa inventore quasi modi nulla facilis corporis adipisci, quas, eius voluptate omnis, odit veniam aliquid voluptatum.
+                    </p>
+                    <div class="news-item__button">Подробнее</div>
+                    <footer class="news-item__footer">
+                        <p class="news-footer__date">12.01.24</p>
+                        <p class="news-footer__author">Луговой Ф.С.</p>
+                    </footer>
+                </li>
             </ul>
         </section>
     </main>
     <footer>
-
+        
     </footer>
     <script src="./js/index.js"></script>
 </body>
